@@ -1,0 +1,16 @@
+.project {
+  width: fit-content;
+  background-color: #000;
+  border: solid 10px #150f35;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    330deg,
+    #150f35 0%,
+    #271037 25%,
+    #231f63 50%,
+    #1f2dc4 75%,
+    #195cae 100%
+  );
+  color: #b9cde9;
+  padding: 1rem;
+}
