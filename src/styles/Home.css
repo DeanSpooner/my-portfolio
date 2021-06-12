@@ -1,24 +1,8 @@
 img {
-  border: solid 10px #eee;
+  border: solid 10px #91c3ff;
   border-radius: 50%;
   height: 10em;
   margin: 2rem;
-}
-.flexbox {
-  display: flex;
-}
-
-.homebox {
-  display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: stretch;
-}
-
-.fadein {
-  animation: 1.5s fadein;
 }
 
 p {
