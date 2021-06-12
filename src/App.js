@@ -18,11 +18,11 @@ const App = () => {
             <Link to="/projects" className="item">
               Projects
             </Link>
-            <Link to="/contact" className="item">
-              Contact
-            </Link>
             <Link to="/about" className="item">
               About
+            </Link>
+            <Link to="/contact" className="item">
+              Contact
             </Link>
           </div>
         </div>

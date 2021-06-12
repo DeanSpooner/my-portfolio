@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+.navigation {
+  padding: 1rem;
+  width: 80%;
+  border: solid #fff;
+  border-width: 0 0 3px 0;
+  border-image: linear-gradient(
+    330deg,
+    #373333 0%,
+    #bcfcd9 45%,
+    #87fed8 60%,
+    #5dfffc 85%,
+    #91c3ff 95%
+  );
+  border-image-slice: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item {
+  font-size: 2rem;
+  padding: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes fadein-title {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@-webkit-keyframes fadein-title {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateX(75px);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    opacity: 0;
+    transform: translateX(75px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+    transform: translateX(75px);
+  }
+  50% {
+    opacity: 0;
+    transform: translateX(75px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }

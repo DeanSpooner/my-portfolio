@@ -3,7 +3,7 @@ import "../styles/Project.css";
 
 const Project = ({ title, category, tech, description, github, page }) => {
   return (
-    <div className="project">
+    <div className="project fadein">
       <h2>{title}</h2>
       <h3>{category}</h3>
       <h3>Tech stack used: {tech}</h3>
@@ -12,7 +12,7 @@ const Project = ({ title, category, tech, description, github, page }) => {
         Github
       </a>
       <a target="_blank" href={page} rel="noreferrer">
-        Heroku Page
+        Live page
       </a>
     </div>
   );

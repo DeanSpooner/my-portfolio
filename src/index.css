@@ -1,31 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
 
 body {
-  background-color: #b9cde9;
+  background-color: #373333;
   font-family: "Oxygen", sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-.title {
+h1 {
   margin: 0;
+  animation: 1s fadein-title;
+}
+
+.title,
+.item {
+  margin-left: 2rem;
   padding: 0;
   text-align: left;
-  background: #150f35;
-  background-color: #150f35;
+  background: #ffffff;
+  background-color: #ffffff;
   background: linear-gradient(
     330deg,
-    #150f35 0%,
-    #271037 25%,
-    #231f63 50%,
-    #1f2dc4 75%,
-    #195cae 100%
+    #e7e3ff 0%,
+    #bcfcd9 25%,
+    #87fed8 50%,
+    #5dfffc 75%,
+    #91c3ff 100%
   );
   background-clip: text;
   font-size: 10em;
