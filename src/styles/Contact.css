@@ -1,0 +1,47 @@
+.contact-container {
+  display: flex;
+}
+
+.contact-child {
+  margin-left: 1rem;
+  flex: 1;
+  text-align: center;
+}
+
+.github,
+.email,
+.linkedin {
+  border-radius: 50%;
+  background-image: linear-gradient(
+    330deg,
+    #e7e3ff 0%,
+    #bcfcd9 25%,
+    #87fed8 50%,
+    #5dfffc 75%,
+    #91c3ff 100%
+  );
+  height: 6rem;
+}
+
+.emailbox {
+  animation: 1.5s fadein;
+}
+
+.githubbox {
+  animation: 1.8s fadein;
+  border: solid #fff;
+  border-width: 0 3px 0 3px;
+  border-image: linear-gradient(
+    0deg,
+    #373333 0%,
+    #bcfcd9 45%,
+    #87fed8 60%,
+    #5dfffc 85%,
+    #91c3ff 95%
+  );
+  border-image-slice: 1;
+}
+
+.linkedinbox {
+  animation: 2.1s fadein;
+}

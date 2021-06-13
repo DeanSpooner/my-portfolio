@@ -1,0 +1,34 @@
+.about-container {
+  display: flex;
+}
+
+.kanagawa,
+#about {
+  animation: 2.5s fadein-title;
+}
+
+.prague,
+.kanagawa,
+.nara {
+  height: 10rem;
+}
+
+.kanagawa,
+.nara {
+  position: relative;
+}
+
+.nara {
+  animation: 2s fadein-title;
+  bottom: 10rem;
+  left: 4rem;
+}
+
+.kanagawa {
+  bottom: 20rem;
+}
+#about {
+  position: relative;
+  left: 4rem;
+  font-size: 1.5rem;
+}

@@ -4,6 +4,13 @@ h1 {
   animation: 1.2s fadein-title;
 }
 
+#introduction,
+#about {
+  color: #eee;
+  font-size: 2.5rem;
+  width: 75%;
+}
+
 .flexbox {
   display: flex;
 }
@@ -58,21 +65,6 @@ h1 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-}
-
-.gradientbox {
-  width: fit-content;
-  background-color: #eee;
-  border: solid 10px #150f35;
-  border-image-slice: 1;
-  border-image-source: linear-gradient(
-    330deg,
-    #150f35 0%,
-    #271037 25%,
-    #231f63 50%,
-    #1f2dc4 75%,
-    #195cae 100%
-  );
 }
 
 .navigation {

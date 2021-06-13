@@ -12,7 +12,7 @@ const Home = (props) => {
           <img src={dean} alt="Dean"></img>
         </div>
         <div className="flexbox-items">
-          <p>
+          <p id="introduction">
             ...and I am a software developer! I hope you enjoy having a look
             through my projects and finding out a little more about who I am.
           </p>
