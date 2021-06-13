@@ -52,7 +52,7 @@ const Projects = (props) => {
                   title="Book Library"
                   category="Back End"
                   tech="Node.js, MySQL, APIs, Sequelize, Express, Mocha, Chai, Heroku, Swagger"
-                  description="My book library."
+                  description="My book library. Takes CRUD requests on readers, books, authors and genres. Makes use of foreign keys to apply genres/authors to books, let readers borrow books and so on. Swagger applied as UI for any users to use."
                   github="https://github.com/DeanSpooner/book-library"
                   page="https://deans-book-library.herokuapp.com/api-docs/"
                 />
@@ -79,7 +79,7 @@ const Projects = (props) => {
                   title="Tokyo Metro Tozai Simulator"
                   category="Front End"
                   tech="HTML, CSS, JavaScript, Jest"
-                  description="A simulator based on the Tozai line of the Tokyo Metro. An enhancement of my previous Cruise Ships project."
+                  description="A simulator based on the Tozai line of the Tokyo Metro. An enhancement of my previous Cruise Ship Sim project."
                   github="https://github.com/DeanSpooner/tozai"
                   page="https://deanspooner.github.io/tozai/"
                 />
