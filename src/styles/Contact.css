@@ -23,6 +23,34 @@
   height: 6rem;
 }
 
+.github:hover,
+.email:hover,
+.linkedin:hover {
+  animation: 0.4s hovering;
+  background-image: linear-gradient(
+    330deg,
+    #fde3ff 0%,
+    #f3bcfc 25%,
+    #fe87ce 50%,
+    #ff9191 75%,
+    #ff5d96 100%
+  );
+}
+
+@keyframes hovering {
+  0% {
+    height: 6rem;
+  }
+  50% {
+    transform: rotate(-8deg);
+    height: 7rem;
+  }
+  100% {
+    transform: rotate(0deg);
+    height: 6rem;
+  }
+}
+
 .emailbox {
   animation: 1.5s fadein;
 }

@@ -16,7 +16,7 @@ const Contact = (props) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={email} alt="GitHub" class="github"></img>
+            <img src={email} alt="Email" class="email"></img>
             <p>dean.spooner@live.co.uk</p>
           </a>
         </div>
@@ -36,7 +36,7 @@ const Contact = (props) => {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={linkedin} alt="GitHub" class="linkedin"></img>
+            <img src={linkedin} alt="LinkedIn" class="linkedin"></img>
             <p>linkedin.com/in/deanspooner</p>
           </a>
         </div>
