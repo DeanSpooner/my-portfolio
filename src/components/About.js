@@ -24,7 +24,7 @@ const About = (props) => {
             My name is Dean Spooner and I am a software developer and primary
             school teacher with five years of experience. I have been on the
             Manchester Codes Software Developer boot camp since February 2021,
-            learning front-end and back-end web development. <br></br>
+            learning full stack web development. <br></br>
             <br></br>I have worked with and studied HTML, CSS, JavaScript,
             Node.js, React, MySQL, APIs, Express, Sequelize and AWS.<br></br>
             <br></br>Outside of the course, I enjoy studying Japanese (my first
