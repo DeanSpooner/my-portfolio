@@ -11,37 +11,49 @@ const Projects = (props) => {
       <BrowserRouter>
         <div className="projects-container fadein">
           <div className="sidenav-sub">
+            <Link to="/nasa-search-engine" className="item">
+              NASA Image Search
+            </Link>
             <Link to="/weather-app" className="item">
               Weather App
             </Link>
-            <br></br>
             <Link to="/book-library" className="item">
               Book Library
             </Link>
-            <br></br>
             <Link to="/music-library" className="item">
               Music Library
             </Link>
-            <br></br>
             <Link to="/tokyo-metro" className="item">
               Tokyo Metro Sim
             </Link>
-            <br></br>
             <Link to="/cruise-ship" className="item">
               Cruise Ship Sim
             </Link>
           </div>
           <div className="current-project">
             <Route
+              path="/nasa-search-engine"
+              render={() => (
+                <Project
+                  title="NASA Image Search Engine"
+                  category="Front End (making use of external Back End APIs)"
+                  tech="React, HTML, CSS, JavaScript, Jest, Axios, APIs"
+                  description="An image search engine that takes in a search term from a user, and returns images from a NASA API endpoint."
+                  github="https://github.com/DeanSpooner/nasa-search-engine"
+                  page="https://deanspooner.github.io/nasa-search-engine"
+                />
+              )}
+            />
+            <Route
               path="/weather-app"
               render={() => (
                 <Project
-                  title="Weather Forecast App - currently being built. 🚧"
-                  category="Front End (making use of Back End APIs)"
-                  tech="React, HTML, CSS, JavaScript, Jest, APIs"
-                  description="A weather app that takes a location and returns the forecast for the next five days. Currently being built."
+                  title="Weather Forecast App"
+                  category="Front End (making use of external Back End APIs)"
+                  tech="React, HTML, CSS, JavaScript, Jest, Axios, APIs"
+                  description="A real, working weather app that takes a UK location and returns the forecast for the next five days. Allows the user to see extra details for a particular day."
                   github="https://github.com/DeanSpooner/weather-app"
-                  page="https://github.com/DeanSpooner/weather-app"
+                  page="https://deanspooner.github.io/weather-app"
                 />
               )}
             />

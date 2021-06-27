@@ -2,6 +2,9 @@
 
 body {
   background-color: #373333;
+  background-image: linear-gradient(to bottom left, transparent 0%, #373333 20%),
+    url("./images/dots.png");
+  background-size: 100vw 100vh;
   font-family: "Oxygen", sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;

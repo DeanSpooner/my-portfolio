@@ -27,6 +27,17 @@
   height: 100%;
 }
 
+.item {
+  padding-top: 0.5em;
+}
+.item:first-of-type {
+  padding-top: 0;
+}
+
+.item:last-of-type {
+  padding-bottom: 0.5em;
+}
+
 @media screen and (max-width: 1024px) {
   .projects-container {
     display: inline-block;
