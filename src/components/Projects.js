@@ -3,7 +3,7 @@ import Project from "./Project.js";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import "../styles/Projects.css";
 
-const Projects = (props) => {
+const Projects = props => {
   return (
     <div>
       <div className="loader"></div>
@@ -11,28 +11,64 @@ const Projects = (props) => {
       <BrowserRouter>
         <div className="projects-container fadein">
           <div className="sidenav-sub">
-            <Link to="/nasa-search-engine" className="item">
+            <Link to="/my-portfolio/projects/cool-dinners" className="item">
+              Cool Dinners Paired Project
+            </Link>
+            <Link to="/my-portfolio/projects/surreal-estate" className="item">
+              Surreal Estate App
+            </Link>
+            <Link
+              to="/my-portfolio/projects/nasa-search-engine"
+              className="item"
+            >
               NASA Image Search
             </Link>
-            <Link to="/weather-app" className="item">
+            <Link to="/my-portfolio/projects/weather-app" className="item">
               Weather App
             </Link>
-            <Link to="/book-library" className="item">
+            <Link to="/my-portfolio/projects/book-library" className="item">
               Book Library
             </Link>
-            <Link to="/music-library" className="item">
+            <Link to="/my-portfolio/projects/music-library" className="item">
               Music Library
             </Link>
-            <Link to="/tokyo-metro" className="item">
+            <Link to="/my-portfolio/projects/tokyo-metro" className="item">
               Tokyo Metro Sim
             </Link>
-            <Link to="/cruise-ship" className="item">
+            <Link to="/my-portfolio/projects/cruise-ship" className="item">
               Cruise Ship Sim
             </Link>
           </div>
           <div className="current-project">
             <Route
-              path="/nasa-search-engine"
+              path="/my-portfolio/projects/cool-dinners"
+              render={() => (
+                <Project
+                  title="Cool Dinners - Final Bootcamp Project"
+                  category="Full Stack"
+                  tech="React, HTML, CSS, JavaScript, Node.js, Moment,js, Axios, MySQL, Docker, Express, Heroku, Jest, APIs"
+                  description="A  React web app that allows school staff to create and edit food orders for their students. Created as a final paired project with my friend Matt Holmes."
+                  github="https://github.com/MattHolmes2909/Cool-Dinners-Frontend"
+                  page={null}
+                  demo="https://www.youtube.com/watch?v=cEsCZTyqzLY"
+                />
+              )}
+            />
+            <Route
+              path="/my-portfolio/projects/surreal-estate"
+              render={() => (
+                <Project
+                  title="Surreal Estate Properties App"
+                  category="Front End (making use of external Back End APIs)"
+                  tech="React, HTML, CSS, JavaScript, Jest, Axios, APIs"
+                  description="A React web app that allows users to browse and search through different properties linked to an external API."
+                  github="https://github.com/DeanSpooner/surreal-estate"
+                  page={null}
+                />
+              )}
+            />
+            <Route
+              path="/my-portfolio/projects/nasa-search-engine"
               render={() => (
                 <Project
                   title="NASA Image Search Engine"
@@ -45,7 +81,7 @@ const Projects = (props) => {
               )}
             />
             <Route
-              path="/weather-app"
+              path="/my-portfolio/projects/weather-app"
               render={() => (
                 <Project
                   title="Weather Forecast App"
@@ -58,7 +94,7 @@ const Projects = (props) => {
               )}
             />
             <Route
-              path="/book-library"
+              path="/my-portfolio/projects/book-library"
               render={() => (
                 <Project
                   title="Book Library"
@@ -71,7 +107,7 @@ const Projects = (props) => {
               )}
             />
             <Route
-              path="/music-library"
+              path="/my-portfolio/projects/music-library"
               render={() => (
                 <Project
                   id="music"
@@ -85,7 +121,7 @@ const Projects = (props) => {
               )}
             />
             <Route
-              path="/tokyo-metro"
+              path="/my-portfolio/projects/tokyo-metro"
               render={() => (
                 <Project
                   title="Tokyo Metro Tozai Simulator"
@@ -99,7 +135,7 @@ const Projects = (props) => {
             />
             <Route
               id="cruise"
-              path="/cruise-ship"
+              path="/my-portfolio/projects/cruise-ship"
               render={() => (
                 <Project
                   title="Cruise Ship Simulator"

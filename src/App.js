@@ -15,21 +15,21 @@ const App = () => {
             <Link to="/my-portfolio" className="item">
               Home
             </Link>
-            <Link to="/projects" className="item">
+            <Link to="/my-portfolio/projects" className="item">
               Projects
             </Link>
-            <Link to="/about" className="item">
+            <Link to="/my-portfolio/about" className="item">
               About
             </Link>
-            <Link to="/contact" className="item">
+            <Link to="/my-portfolio/contact" className="item">
               Contact
             </Link>
           </div>
         </div>
         <Route exact path="/my-portfolio" component={Home} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
+        <Route path="/my-portfolio/projects" component={Projects} />
+        <Route path="/my-portfolio/about" component={About} />
+        <Route path="/my-portfolio/contact" component={Contact} />
       </div>
     </BrowserRouter>
   );
