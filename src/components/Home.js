@@ -13,7 +13,7 @@ const Home = (props) => {
         </div>
         <div className="flexbox-items">
           <p id="introduction">
-            ...and I am a software developer! I hope you enjoy having a look
+            ...and I am a frontend developer! I hope you enjoy having a look
             through my projects and finding out a little more about who I am.
           </p>
         </div>

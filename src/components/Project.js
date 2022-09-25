@@ -18,7 +18,7 @@ const Project = ({
         <p>Tech stack used: {tech}</p>
         <p>{description}</p>
         <a target="_blank" href={github} rel="noreferrer">
-          Github
+          GitHub repository
         </a>
         {page !== null ? (
           <a target="_blank" href={page} rel="noreferrer">

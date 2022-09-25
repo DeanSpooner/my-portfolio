@@ -67,6 +67,29 @@ h1 {
   -moz-text-fill-color: transparent;
 }
 
+.about-container {
+  display: flex;
+  flex: 0 1 1;
+}
+
+.about-child-images {
+  display: block;
+  height: 320px;
+}
+.about-child-paras {
+  display: block;
+}
+
+@media screen and (max-width: 712px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+}
+
 .navigation {
   padding: 1rem;
   width: 80%;

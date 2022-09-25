@@ -68,3 +68,8 @@
   flex-wrap: nowrap;
   width: 70%;
 }
+
+.unbullet-list {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}

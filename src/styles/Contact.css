@@ -60,3 +60,17 @@
 .linkedinbox {
   animation: 2.1s fadein;
 }
+
+@media screen and (max-width: 928px) {
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-child {
+    margin-left: 0;
+  }
+
+  .githubbox {
+    border: none;
+  }
+}
